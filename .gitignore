@@ -1,0 +1,13 @@
+lastupdate.tmp
+.vscode/
+titan_api_crud
+main
+.scannerwork/
+swagger/**
+!swagger/swagger.json
+!swagger/swagger.yml
+*.env
+*.exe
+*.tmp
+*.zip
+pg_data/
