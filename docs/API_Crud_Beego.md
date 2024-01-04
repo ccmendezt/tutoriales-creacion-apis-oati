@@ -70,10 +70,10 @@
   }))
   ```
 
-- ### Ejecutar cambios en los modelos:
+- ### Cambiar tipos de datos en los modelos:
   Especificar el id `auto` y cambiar el tipo `time.Time` a `string` en los atributos _fecha_creacion_ y _fecha_modificacion_ en los modelos
 - ### Modificar el manejo de errores en los controladores
-- ### Modificar fechas de creación/modificación en los controladores:
+- ### Modificar fechas de creación/modificación en los controladores y modelos:
 
   Importar en cada controlador la siguiente biblioteca:
   `"github.com/udistrital/utils_oas/time_bogota"`
@@ -87,11 +87,18 @@
   v.FechaModificacion = time_bogota.TiempoBogotaFormato()
   ```
 
-  - #### Para método HTTP PUT:
+  - #### Para método HTTP PUT (Editar un registro):
+
+  **En el Controlador:**
 
   ```golang
-  v.FechaCreacion = time_bogota.TiempoCorreccionFormato(v.FechaCreacion)
   v.FechaModificacion = time_bogota.TiempoBogotaFormato()
+  ```
+
+  **En el Modelo en método _UpdateContactoById_:**
+
+  ```golang
+  m.FechaCreacion = time_bogota.TiempoCorreccionFormato(v.FechaCreacion)
   ```
 
 - ### Subir las variables de entorno con:
