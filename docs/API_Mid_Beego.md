@@ -1,4 +1,4 @@
-## Generar API MID
+## Generar API MID - Beego
 
 - ### Ejecutar el comando para creacion de API CRUD:
   ```golang

@@ -1,4 +1,4 @@
-## Generar API CRUD
+## Generar API CRUD - Beego
 
 - ### Crear el modelo de BD
 - ### Correr el script SQL en PostgreSQL
