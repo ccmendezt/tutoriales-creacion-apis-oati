@@ -50,7 +50,7 @@ RUN apt-get install -y golang-golang-x-tools
 WORKDIR $GOPATH/src/github.com/udistrital/
 RUN npm i -g hygen && hygen init self
 RUN cd ./_templates/ \ 
-    && git clone https://github.com/udistrital/plantilla_api_crud.git \
+    && git clone https://github.com/ccmendezt/plantilla_api_crud.git \
     && git clone https://github.com/udistrital/plantilla_api_mid.git \
     && git clone https://github.com/udistrital/plantillas_cliente.git
 
