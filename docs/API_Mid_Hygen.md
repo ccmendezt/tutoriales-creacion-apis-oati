@@ -23,7 +23,8 @@
   ![Configuracion-Api_MID](../assets/configuracion-mid.JPG)
 
   - Esta sería la vista de la creación correcta de la **API MID**:
-    ![Creación-correcta](../assets/creacion-mid-finalizada.JPG)
+
+  ![Creación-correcta](../assets/creacion-mid-finalizada.JPG)
 
 - ### Salir del contenedor
 
@@ -31,7 +32,7 @@
   exit
   ```
 
-- ### Copiar proyecto del contenedor al PC anfitrión en Windows (edite "nombre_api_crud")
+- ### Copiar proyecto del contenedor al PC anfitrión en Windows (edite "nombre_api_mid")
 
   Si el primer comando no funciona, ejecutar el segundo:
 
@@ -48,6 +49,7 @@
   ```
 
   - Esta sería la vista de la copia correcta de la **API MID**:
-    ![Copy-Project](../assets/copy-project-mid.JPG)
+
+  ![Copy-Project](../assets/copy-project-mid.JPG)
 
   De esta forma ya tendremos la **API MID** creada en nuestro _workdir_ de Go.

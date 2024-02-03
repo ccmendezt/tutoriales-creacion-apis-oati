@@ -25,7 +25,8 @@ Una vez los contenedores se crearon y están ejecutándose se realiza:
   ![Configuración-Creacion-API-CRUD](../assets/configuracion-crud.JPG)
 
   - Esta sería la vista de la creación correcta de la **API CRUD**:
-    ![Creación-correcta](../assets/creacion-crud-finalizada.JPG)
+
+  ![Creación-correcta](../assets/creacion-crud-finalizada.JPG)
 
 - ### Salir del contenedor
 
@@ -50,7 +51,8 @@ Una vez los contenedores se crearon y están ejecutándose se realiza:
   ```
 
   - Esta sería la vista de la copia correcta de la **API CRUD**:
-    ![Copy-Project](../assets/copy-project-crud.JPG)
+
+  ![Copy-Project](../assets/copy-project-crud.JPG)
 
   De esta forma ya tendremos la **API CRUD** creada en nuestro _workdir_ de Go.
 
