@@ -6,12 +6,13 @@ services:
       context: .
       dockerfile: ./hygen/Dockerfile
     container_name: hygen
+    restart: unless-stopped
     networks:
       - network_containers
   postgres:
     image: postgres:16.1
     container_name: postgres
-    restart: always
+    restart: unless-stopped
     ports:
       - 5432:5432
     environment:
@@ -28,7 +29,7 @@ services:
 
   pgadmin:
     image: dpage/pgadmin4:8.1
-    restart: always
+    restart: unless-stopped
     container_name: pgadmin
     environment:
       PGADMIN_DEFAULT_EMAIL: "admin@admin.com"
